@@ -26,3 +26,12 @@ if(!function_exists('mawt_scripts')):
 endif;
 
 add_action('wp_enqueue_scripts','mawt_scripts');
+
+if (!function_exists('mawt_setup')):
+    function mawt_setup(){
+        add_theme_support('post-thumbnails');
+    }
+endif;
+
+
+add_action('after_setup_theme','mawt_setup');

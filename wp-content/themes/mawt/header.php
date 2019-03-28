@@ -10,11 +10,9 @@
 </head>
 
 <body>
-    <h1>Creación de temas</h1>
-
     <header class="Header">
         <div class="Logo">
-            <a href="#">Logo</a>
+            <a href="<?php echo esc_url(home_url('/')); ?>">Logo</a>
         </div>
         <nav class="Menu">
             <ul>
