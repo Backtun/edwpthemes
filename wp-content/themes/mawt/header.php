@@ -16,11 +16,8 @@
         </div>
         <nav class="Menu">
             <ul>
-                <li><a href="">Seccion 1</a></li>
-                <li><a href="">Seccion 2</a></li>
-                <li><a href="">Seccion 3</a></li>
-                <li><a href="">Seccion 4</a></li>
-                <li><a href="">Seccion 5</a></li>
+            <!-- Se elimina la palabra 'paginas' -->
+                <?php wp_list_pages('title_li'); ?>
             </ul>
         </nav>
     </header>
